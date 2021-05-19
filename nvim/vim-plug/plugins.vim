@@ -19,4 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'    
+    " Stable version of coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
