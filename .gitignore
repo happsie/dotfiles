@@ -2,9 +2,9 @@
 !.gitignore
 !.zshrc
 !.tmux.conf
+!readme.md
 
 .config/*
 !.config/
-
 !.config/starship.toml
-!.config/nvim/
+
