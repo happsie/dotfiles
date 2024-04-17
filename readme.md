@@ -9,3 +9,23 @@
 7. `source ~/.zshrc`
 8. kill tmux `pkill -f tmux`
 9. install zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
+## cmd
+| Key                      | Description                    |
+|--------------------------|--------------------------------|
+| tmux                     | new tmux session               |
+| tmux a                   | attach to previous session     |
+| tmux a -t session_name   | attach to named session        |
+
+
+## keybinds
+
+| Key                      | Description                    |
+|--------------------------|--------------------------------|
+| ctrl-a + w               | list all session               |
+| ctrl-a + -               | create horizontal pane         |
+| ctrl-a + x               | kill pane                      |
+| ctrl-a + h               | left horizontal pane           |
+| ctrl-a + l               | right horizontal pane          |
+| ctrl-a + j               | bottom horizontal pane         |
+| ctrl-a + k               | top horizontal pane            |
