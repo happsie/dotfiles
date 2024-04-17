@@ -24,7 +24,7 @@
 |--------------------------|--------------------------------|
 | ctrl-a + w               | list all session               |
 | ctrl-a + -               | create horizontal pane         |
-| ctrl-a + |               | create verital pane            |
+| ctrl-a + \|              | create verital pane            |
 | ctrl-a + x               | kill pane                      |
 | ctrl-a + h               | left horizontal pane           |
 | ctrl-a + l               | right horizontal pane          |
