@@ -2,10 +2,17 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source ~/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source ~/catppuccin_mocha-zsh-syntax-highlighting.zsh
+
+alias mci="mvn clean install"
+alias mciskip="mvn clean install -DskipTests"
+function port {
+    lsof -i :$1
+}
+
 
 export PATH=$PATH:$HOME/go/bin
 export PATH=/Users/jespernilsson/.local/bin:$PATH

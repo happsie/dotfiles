@@ -8,3 +8,4 @@
 6. install starship `brew install starship`
 7. `source ~/.zshrc`
 8. kill tmux `pkill -f tmux`
+9. install zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`

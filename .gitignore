@@ -8,4 +8,5 @@
 .config/*
 !.config/
 !.config/starship.toml
+!catppuccin_mocha-zsh-syntax-highlighting.zsh
 
