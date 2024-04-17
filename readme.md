@@ -30,3 +30,5 @@
 | ctrl-a + l               | right horizontal pane          |
 | ctrl-a + j               | bottom horizontal pane         |
 | ctrl-a + k               | top horizontal pane            |
+| ctrl-a + d               | detach from tmux               |
+| ctrl-a + $               | rename tmux session            |
