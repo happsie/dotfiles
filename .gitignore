@@ -3,6 +3,7 @@
 !.zshrc
 !.tmux.conf
 !readme.md
+!0xProtoNerdFontPropo-Regular.ttf
 
 .config/*
 !.config/
