@@ -14,6 +14,7 @@ add the files in your home directory. If a file is in .config then it should be 
 10. install zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 11. install bat `brew install bat`
 12. install fzf `brew install fzf`
+13. install zoxide `brew install zoxide`
 
 
 ## cmd
