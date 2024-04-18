@@ -12,6 +12,9 @@ add the files in your home directory. If a file is in .config then it should be 
 8. install starship `brew install starship`
 9. `source ~/.zshrc`
 10. install zsh-syntax-highlighting `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+11. install bat `brew install bat`
+12. install fzf `brew install fzf`
+
 
 ## cmd
 | Key                      | Description                    |
@@ -19,6 +22,7 @@ add the files in your home directory. If a file is in .config then it should be 
 | tmux                     | new tmux session               |
 | tmux a                   | attach to previous session     |
 | tmux a -t session_name   | attach to named session        |
+| fzf                      | search with fzf                |
 
 
 ## keybinds
@@ -35,3 +39,7 @@ add the files in your home directory. If a file is in .config then it should be 
 | ctrl-a + k               | top horizontal pane            |
 | ctrl-a + d               | detach from tmux               |
 | ctrl-a + $               | rename tmux session            |
+| ctrl-t                   | find with fzf                  |
+| ctrl-c                   | close fzf                      |
+| ctrl-r                   | cmd history with fzf           |
+
