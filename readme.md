@@ -1,4 +1,15 @@
-## dotfiles
+# dotfiles
+
+## included
+
+* bat
+* fzf 
+* tmux
+* starship
+* catppucin
+* nerdfont
+* zoxide
+
 
 add the files in your home directory. If a file is in .config then it should be in ~/.config/*
 
